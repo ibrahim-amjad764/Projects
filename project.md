@@ -90,4 +90,71 @@ git push -u origin main
 
 ## 🎉 DONE BOOOM 🎉
 
+Bilkul 👍
+Neechay **GitHub par project upload karne ke SARAY steps COMBINE karke**, short aur clear Roman Urdu me likh raha hoon 👇
+
+---
+
+# 🔥 GitHub par Project Upload (Combined Steps)
+
+```bash
+# 1) Project folder me jao
+cd Projects
+
+# 2) Git initialize (sirf first time)
+git init
+
+# 3) GitHub repo connect (sirf first time)
+git branch -M main
+git remote add origin https://github.com/ibrahim-amjad764/Projects.git
+
+# 4) Files check karo
+git status
+
+# 5) Files stage karo
+git add .
+
+# 6) Commit karo
+git commit -m "first or updated commit"
+
+# 7) GitHub par push karo
+git push -u origin main
+```
+
+---
+
+## 🔁 Agli baar sirf itna hi:
+
+```bash
+git add .
+git commit -m "update"
+git push
+```
+
+---
+
+## 🔐 Login jab poochay:
+
+* **Username:** `ibrahim-amjad764`
+* **Password:** GitHub **TOKEN**
+
+---
+
+## ⚠️ Yaad rakhna:
+
+* `git init` & `remote add` **sirf ek baar**
+* Har update pe: **add → commit → push**
+
+---
+
+## 🧠 One-line yaad rakhne ka rule:
+
+```bash
+git add . && git commit -m "msg" && git push
+```
+
+---
+
+Agar koi error aaye to **error text yahan paste** kar dena
+main turant solve karwa doon ga 💪
 
